@@ -41,7 +41,7 @@ battery all {
 }
 
 volume master {
-    format = " V: %volume "
+    format = " V: %volume (%devicename) "
     format_muted = " V: muted (%volume) "
     device = "pulse"
 }
