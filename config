@@ -169,6 +169,9 @@ bindsym $mod+slash exec "rofi -modi emoji -show emoji -kb-custom-1 Ctrl+c"
 # Puts the windows clipboard manager to shame
 bindsym $mod+period exec "rofi -modi 'clipboard:greenclip print' -show clipboard -run-command '{cmd}'"
 
+# MATH
+bindsym $mod+m exec "rofi -show calc -modi calc -no-show-match -no-sort"
+
 # Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/screenshots/$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/screenshots/$(date)"
